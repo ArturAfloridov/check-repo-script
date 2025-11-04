@@ -26,7 +26,7 @@ def get_changed_files(repo_path):
         )
 
         if result.returncode != 0:
-            print("❌ Ошибка при выполнении команды Git.")
+            print(" Ошибка при выполнении команды Git.")
             print(result.stderr)
             sys.exit(1)
 
