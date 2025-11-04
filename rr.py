@@ -44,7 +44,7 @@ def get_changed_files(repo_path):
             print(f"\nВсего изменено: {len(lines)} файл(ов)")
 
     except Exception as e:
-        print(f"❌ Ошибка: {e}")
+        print(f" Ошибка: {e}")
         sys.exit(1)
 
 
